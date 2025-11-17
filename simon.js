@@ -26,7 +26,7 @@ function userFlash(btn) {
     btn.classList.add("userflash");
     setTimeout(function () {
         btn.classList.remove("userflash");
-    }, 250);
+    }, 125);
 }
 
 function levelup() {
@@ -80,3 +80,4 @@ function reset() {
     userseq = [];
     level = 0;
 }
+
